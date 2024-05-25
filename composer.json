@@ -1,0 +1,23 @@
+{
+    "name": "estra/appsalon",
+    "description": "Proyecto Appsalon",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Estra\\Appsalon\\": "src/",
+            "MVC\\" : "./",
+            "Controllers\\" : "./Controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jorge Estrada"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer" : "^6.5",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
